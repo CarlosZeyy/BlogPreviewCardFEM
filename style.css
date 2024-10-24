@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Figtree";
+  font-size: 1.6rem;
+  background-color: #f4d04e;
+}
+
+h2 {
+  padding-bottom: 2rem;
+  font-weight: 800;
+
+  &:hover {
+    color: #f4d04e;
+    cursor: pointer;
+  }
+}
+
+p {
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.container-geral {
+  padding: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.container-box {
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 2rem;
+  border: solid 1px #000;
+  box-shadow: 0.8rem 0.8rem;
+}
+
+.imagem {
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.type {
+  background-color: #f4d04e;
+  font-weight: 800;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.type p {
+  padding: 0.8rem;
+}
+
+.description {
+  font-weight: lighter;
+  color: #6b6b6b;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo img {
+  width: 5rem;
+}
+
+.profile-photo p {
+  padding: 0;
+  padding-left: 1rem;
+  font-weight: 800;
+}
